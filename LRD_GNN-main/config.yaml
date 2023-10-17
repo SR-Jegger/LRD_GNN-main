@@ -1,0 +1,40 @@
+Cora:
+  dropout : 0.2
+  hidden_dim : 256
+  weight_decay : 0.01
+  learning_rate : 0.01
+  batchnorm : False
+  filename : 'cora_tensor_feats_avg.npy'
+
+wikics:
+  dropout : 0.2
+  hidden_dim : 256
+  weight_decay : 0.01
+  learning_rate : 0.01
+  batchnorm : True
+  filename : 'wikics_tensor_feats_self.npy'
+
+chameleon:
+  dropout : 0.05
+  hidden_dim : 256
+  weight_decay : 0.001
+  learning_rate : 0.01
+  batchnorm : True
+  filename : 'chameleon_tensor_feats_avg.npy'
+
+Cornell:
+  dropout: 0.1  #0.25
+  hidden_dim: 128
+  weight_decay: 0.005
+  learning_rate: 0.01
+  batchnorm: False
+  filename : 'cornell_tensor_feats_self.npy'
+
+Texas:
+  dropout: 0.25
+  hidden_dim: 128
+  weight_decay: 0.005
+  learning_rate: 0.01
+  batchnorm: False
+  filename: 'texas_bdr.npy'
+  #filename : 'texas_tensor_feats_self.npy'
